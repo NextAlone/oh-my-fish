@@ -1,24 +1,24 @@
-[submodule "omf/.local/share/omf/pkg/fish-systemd"]
-	path = omf/.local/share/omf/pkg/fish-systemd
+[submodule "pkg/fish-systemd"]
+	path = pkg/fish-systemd
 	url = https://github.com/wawa19933/fish-systemd
-[submodule "omf/.local/share/omf/pkg/fish-gencomplete"]
-	path = omf/.local/share/omf/pkg/fish-gencomplete
+[submodule "pkg/fish-gencomplete"]
+	path = pkg/fish-gencomplete
 	url = https://github.com/slavaGanzin/fish-gencomplete
-[submodule "omf/.local/share/omf/pkg/replace_multiple_dots.fish"]
-	path = omf/.local/share/omf/pkg/replace_multiple_dots.fish
+[submodule "pkg/replace_multiple_dots.fish"]
+	path = pkg/replace_multiple_dots.fish
 	url = https://github.com/masa0x80/replace_multiple_dots.fish
-[submodule "omf/.local/share/omf/pkg/fish-jupyter-completions"]
-	path = omf/.local/share/omf/pkg/fish-jupyter-completions
+[submodule "pkg/fish-jupyter-completions"]
+	path = pkg/fish-jupyter-completions
 	url = https://github.com/lwolfsonkin/fish-jupyter-completions
-[submodule "omf/.local/share/omf/pkg/getopts.fish"]
-	path = omf/.local/share/omf/pkg/getopts.fish
+[submodule "pkg/getopts.fish"]
+	path = pkg/getopts.fish
 	url = https://github.com/jorgebucaran/getopts.fish
-[submodule "omf/.local/share/omf/pkg/fish-colored-man"]
-	path = omf/.local/share/omf/pkg/fish-colored-man
+[submodule "pkg/fish-colored-man"]
+	path = pkg/fish-colored-man
 	url = https://github.com/decors/fish-colored-man
-[submodule "omf/.local/share/omf/pkg/fish-docker-compose"]
-	path = omf/.local/share/omf/pkg/fish-docker-compose
+[submodule "pkg/fish-docker-compose"]
+	path = pkg/fish-docker-compose
 	url = https://github.com/decors/fish-colored-man
-[submodule "omf/.local/share/omf/pkg/fish-autovenv"]
-	path = omf/.local/share/omf/pkg/fish-autovenv
+[submodule "pkg/fish-autovenv"]
+	path = pkg/fish-autovenv
 	url = https://github.com/matthewess/fish-autovenv
