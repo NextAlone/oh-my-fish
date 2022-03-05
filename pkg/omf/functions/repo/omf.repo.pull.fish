@@ -19,7 +19,8 @@ function omf.repo.pull -a repo_dir branch
 
   # the refspec ensures that '$remote/$branch' gets updated
   set -l refspec "refs/heads/$branch:refs/remotes/$remote/$branch"
-  __omf.repo.git fetch --quiet $remote $refspec;
+  __omf.repo.git fetch --quiet $remote $refspec 2> /dev/null;
+    or set branch "main";set -l refspec "refs/heads/$branch:refs/remotes/$remote/$branch"; __omf.repo.git fetch --quiet $remote $refspec;
     or return 1
 
   if test (__omf.repo.git rev-list --count "$branch"...FETCH_HEAD) -eq 0
